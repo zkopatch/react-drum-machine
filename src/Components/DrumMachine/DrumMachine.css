@@ -1,0 +1,20 @@
+.DrumMachine{
+    position: fixed;
+    bottom:auto;
+    right: auto;
+    width: 900px;
+    height: 400px;
+    width: 55%;
+    height: 40%;
+    border: 3px solid black;
+    box-shadow: 2px 4px #888888;
+    border-radius: 30px;
+    min-height: 300px;
+    min-width: 413px;
+    background: #221f1f;
+}
+
+.MachineTitle{
+    font-weight: bold;
+    text-shadow: 2px 2px #ffc500;
+}

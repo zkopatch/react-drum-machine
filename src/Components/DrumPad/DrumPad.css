@@ -1,0 +1,21 @@
+.DrumPad{
+    margin:auto;
+    width: 85%;
+    height: 50%;
+    border: 1px solid #feffbd;
+    display: grid;
+    background-color: #565656;
+    box-shadow: 0px 2px #9d9100;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .DrumPad {
+        grid-gap: 0px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2,90px);
+        height: 63%;
+    }
+  }
